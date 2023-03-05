@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      #- volumetd6:/app/data
+      - /home/adi/CloudComp/TD5/sebastien/helloworld.txt:/app/helloworld.txt
+volumes:
+  volumetd6:
+    
