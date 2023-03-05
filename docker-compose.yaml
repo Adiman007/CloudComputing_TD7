@@ -6,7 +6,7 @@ services:
       - "5000:5000"
     volumes:
       #- volumetd6:/app/data
-      - /home/adi/CloudComp/TD5/sebastien/helloworld.txt:/app/helloworld.txt
+      - /home/adi/CloudComp/TD5/helloworld.txt:/app/helloworld.txt
 volumes:
   volumetd6:
     
